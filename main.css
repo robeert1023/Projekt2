@@ -52,6 +52,7 @@ body
     padding-top: 60px; 
     transition: 0.5s;
     padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
   
@@ -64,30 +65,45 @@ body
     transition: 0.3s;
     white-space: nowrap;
   }
-  .fb
+  #socialMedia
+  {
+      margin-left: 20px;
+      margin-right: 20px;
+      border-top: 1px dotted black;
+      padding-top: 30px;
+  }
+  #socialMedia a
+  {
+    color: white;
+    
+  }
+  #fb
   {
       float: left;
+      padding: 0px;
+      margin-left: 40px;
   }
-  .fb i
+  #fb i
   {
       font-size: 50px;
   }
-  .fb i:hover
+  #fb i:hover
   {
-      color: blue;
+      color: #4267b2;
   }
-  .ig
+  #ig
   {
-      text-align: center
+      text-align: center;
+      padding: 0px;
   }
-  .ig i
+  #ig i
   {
       font-size: 50px;
       
   }
-  .ig i:hover
+  #ig i:hover
   {
-      color: pink;
+      color: #df316c;
   }
   .sidenav li
   {
@@ -96,7 +112,7 @@ body
   
  
   .sidenav a:hover {
-    color: #aaffe5;
+    color: rgb(91, 91, 197);
   }
   
   
@@ -130,7 +146,7 @@ body
     color: green;
     margin: 20px 10px 20px 10px;
     padding: 10px 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .content
 {
@@ -139,7 +155,7 @@ body
     color: green;
     margin: 20px 10px 20px 10px;
     padding: 10px 20px;
-    font-family: 'Times New Roman', Times, serif;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .contentlast
 {
@@ -147,7 +163,7 @@ body
     color: green;
     margin: 20px 10px 20px 10px;
     padding: 10px 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #collapsibleNavbar ul li a
 {
@@ -303,11 +319,11 @@ body
     {
     font-size: 20px
     }
-    .fb i
+    #fb i
   {
       font-size: 45px;
   }
-    .ig i
+    #ig i
   {
       font-size: 45px;
   }
